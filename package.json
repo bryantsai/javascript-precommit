@@ -6,8 +6,8 @@
     "pre-commit": "./bin/pre-commit"
   },
   "scripts": {
-    "postinstall": "./bin/postinstall.js",
-    "uninstall": "./bin/uninstall.js"
+    "postinstall": "node ./bin/postinstall.js",
+    "uninstall": "node ./bin/uninstall.js"
   },
   "engines": {
     "node": ">=0.11.13"
